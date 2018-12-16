@@ -1,2 +1,17 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!--焦点图的背景-->
+<image src='/images/bg.png' class='bg'></image>
+
+<!--焦点图分为三部分-->
+<view class='hot-card'>
+  <!--左上角的商品名称以及斜线-->
+  <view class='hot-name'>
+    <image class='hot-name-line' src='/images/line-red.png'></image>
+    <view class='hot-name-text'>{{productList[0].name}}</view>
+    <image class='hot-name-line' src='/images/line-red.png'></image>
+  </view>
+  <!--折扣力度-->
+  <image class='hot-info' src='/images/discount.png'></image>
+  <!--商品图片-->
+  <image class='hot-image' src='{{productList[0].image}}'></image>
+</view>
