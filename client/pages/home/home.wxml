@@ -16,8 +16,32 @@
   <image class='hot-image' src='{{productList[0].image}}'></image>
 </view>
 
+<!--分隔栏-->
 <view class='list-title'>
   <image class='list-title-line' src='/images/line-black.png'></image>
   <view class='list-title-text'>春季推荐</view>
   <image class='list-title-line' src='/images/line-black.png'></image>
+</view>
+
+<!--商品栏-->
+<view class='product-row'>
+  <navigator class='product-card'>
+    <image class='product-image' src='{{productList[1].image}}' mode='widthFix'></image>
+    <view class='product-name'></view>
+    <view class='product-meta'>
+      <view class='product-money'>￥</view>
+      <view class='product-price'>{{productList[1].price}}</view>
+      <view class='product-add'>+</view>
+    </view>
+  </navigator>
+  
+  <navigator class='product-card'>
+    <image class='product-image' src='{{productList[1].image}}' mode='widthFix'></image>
+    <view class='product-name'></view>
+    <view class='product-meta'>
+      <view class='product-money'>￥</view>
+      <view class='product-price'>{{productList[1].price}}</view>
+      <view class='product-add'>+</view>
+    </view>
+  </navigator>
 </view>
