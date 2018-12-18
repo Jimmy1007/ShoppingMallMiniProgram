@@ -15,3 +15,9 @@
   <!--商品图片-->
   <image class='hot-image' src='{{productList[0].image}}'></image>
 </view>
+
+<view class='list-title'>
+  <image class='list-title-line' src='/images/line-black.png'></image>
+  <view class='list-title-text'>春季推荐</view>
+  <image class='list-title-line' src='/images/line-black.png'></image>
+</view>
