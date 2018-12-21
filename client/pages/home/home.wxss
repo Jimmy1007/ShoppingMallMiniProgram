@@ -76,14 +76,14 @@
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
   border-radius: 13rpx;
 }
-
+/*卡片之间的距离*/
 .product-card:first-child {
   margin-right: 27rpx;
 }
 
 .product-image {
   width: 100%;
-  border-radius: 13rpx 13rpx 0 0;
+  border-radius: 13rpx 13rpx 0 0;/*添加圆角矩形框*/
 }
 
 .product-name {
