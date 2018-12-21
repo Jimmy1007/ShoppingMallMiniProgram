@@ -74,7 +74,7 @@
   flex: 1;
   background: #FFFFFF;
   box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
-  border-radius: 13rpx;
+  border-radius: 13rpx;/*添加圆角矩形框*/
 }
 /*卡片之间的距离*/
 .product-card:first-child {
